@@ -23,13 +23,13 @@
             background: red;
         }
 
-        @media (orientation:portrait) {
+        @media only screen and (max-device-width: 320px) and (orientation: portrait) {
             div {
                 width: 300px;
                 background: yellow;
             }
         }
-        @media (orientation:landscape) {
+        @media only screen and (max-device-width: 320px) and (orientation: landscape) {
             div {
                 width: 900px;
                 background: blue;
